@@ -55,7 +55,7 @@ ROOT_URLCONF = 'Arcasys.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates/ArcasysApp'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
